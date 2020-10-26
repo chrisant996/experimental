@@ -20,15 +20,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <header class="page-header" role="banner" style="padding:32px">
+    <header class="page-header" role="banner" style="padding-top:8em;padding-bottom:8em">
       <div>
-        <h1 class="project-name" style="text-align:left">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline" style="text-align:left">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <div>
+          <h1 class="project-name" style="text-align:left">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <h2 class="project-tagline" style="text-align:left">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        </div>
+        <div class="title_sidebar">
+          <a href="{{ site.github.download_url }}" class="btn">Download {{ site.github.version }}</a>
+        </div>
+        <a href="{{ site.github.repository_url }}" style="position:absolute;bottom=8px;right:0"><img src="http://img.shields.io/badge/repo-{{ site.github.repository_name }}-blue.svg?style=flat&logo=github" alt="{{ site.github.repository_name }} repository"></a>
       </div>
-      <div class="title_sidebar" style="text-align:right">
-        <a href="{{ site.github.download_url }}" class="btn">Download {{ site.github.version }}</a>
-      </div>
-      <a href="{{ site.github.repository_url }}" style="position:absolute;bottom=8px;right:16px"><img src="http://img.shields.io/badge/repo-{{ site.github.repository_name }}-brightgreen.svg?style=flat&logo=github" alt="{{ site.github.repository_name }} repository"></a>
     </header>
 
     <main id="content" class="main-content" role="main">
