@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+github:
+  version: v0.0.1
+  download_url: downloadme
+  download_url2: https://foo.com/downloadme
