@@ -8,12 +8,19 @@
 
     @include large {
         max-width: 64rem;
+        margin: 0 auto;
+    }
+
+    @include medium {
+    }
+
+    @include small {
     }
 }
 
 .title_sidebar {
     position: absolute;
-    top: 3em;
+    top: 1em;
     right: 0px;
 }
 
