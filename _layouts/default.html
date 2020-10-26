@@ -20,8 +20,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
     <header class="page-header" role="banner">
       <div>
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -29,8 +27,7 @@
       </div>
       <div>
         <a href="{{ site.github.download_url }}" class="btn">Download {{ site.github.version }}</a>
-        <a href="{{ site.github.download_url2 }}" class="btn">Download {{ site.github.version }}</a>
-        <a href="{{ site.github.repository_url }}">Source Code on GitHub</a>
+        <a href="{{ site.github.repository_url }}"><img src="http://img.shields.io/badge/repo-{{ site.github.repository_name }}-brightgreen.svg?style=flat&logo=github" alt="{{ site.github.repository_name }} repository"></a>
       </div>
     </header>
 

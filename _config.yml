@@ -1,5 +1,4 @@
 theme: jekyll-theme-cayman
 github:
-  version: v0.0.1
-  download_url: downloadme
-  download_url2: https://foo.com/downloadme
+  version: v1.1.0-poc6
+  download_url: https://github.com/chrisant996/clink/releases/tag/v1.1.0-poc6
