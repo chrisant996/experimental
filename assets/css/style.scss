@@ -41,8 +41,15 @@
 
 .title-sidebar {
     position: absolute;
-    text-align: right;
-    vertical-align: middle;
     right: 0px;
+    height: 100%;
+    text-align: right;
 }
+
+.title-sidebar-inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
