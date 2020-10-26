@@ -20,11 +20,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <header class="page-header" role="banner" style="padding-top:8em;padding-bottom:8em">
-      <div>
+    <header class="page-header" role="banner" style="padding-top:2em;padding-bottom:2em">
+      <div style="max-width:64rem">
         <div>
-          <h1 class="project-name" style="text-align:left">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2 class="project-tagline" style="text-align:left">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          <h1 class="project-name" style="text-align:left;margin-bottom:0rem">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <h2 class="project-tagline" style="text-align:left;margin-bottom:0rem">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </div>
         <div class="title_sidebar">
           <a href="{{ site.github.download_url }}" class="btn">Download {{ site.github.version }}</a>
