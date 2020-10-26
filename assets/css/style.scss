@@ -3,11 +3,10 @@
 
 @import "{{ site.theme }}";
 
-.title_container {
-    position: relative;
-
+.title-header {
     @include large {
         max-width: 64rem;
+        padding: 5rem 6rem;
         margin: 0 auto;
     }
 
@@ -18,7 +17,12 @@
     }
 }
 
-.title_sidebar {
+.title-container {
+    position: relative;
+    text-align: left;
+}
+
+.title-sidebar {
     position: absolute;
     top: 1em;
     right: 0px;
