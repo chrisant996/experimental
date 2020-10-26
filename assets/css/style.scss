@@ -23,19 +23,19 @@
 
     @include large {
         max-width: 64rem;
-        left-padding: 6rem;
-        right-padding: 6rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
         margin: 0 auto;
     }
 
     @include medium {
-        left-padding: 4rem;
-        right-padding: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     @include small {
-        left-padding: 1rem;
-        right-padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
