@@ -4,17 +4,6 @@
 @import "{{ site.theme }}";
 
 .title-header {
-    @include large {
-        padding: 2rem 0rem;
-    }
-
-    @include medium {
-        padding: 1.5rem 0rem;
-    }
-
-    @include small {
-        padding: 1rem 0rem;
-    }
 }
 
 .title-container {
