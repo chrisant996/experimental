@@ -21,6 +21,11 @@
     position: relative;
     text-align: left;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
     @include large {
         max-width: 64rem;
         padding-left: 6rem;
@@ -36,6 +41,42 @@
     @include small {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+
+.title-left-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+
+    @include large {
+        padding: 2rem 0rem;
+    }
+
+    @include medium {
+        padding: 1.5rem 0rem;
+    }
+
+    @include small {
+        padding: 1rem 0rem;
+    }
+}
+
+.title-right-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+    @include large {
+        padding: 2rem 0rem;
+    }
+
+    @include medium {
+        padding: 1.5rem 0rem;
+    }
+
+    @include small {
+        padding: 1rem 0rem;
     }
 }
 
