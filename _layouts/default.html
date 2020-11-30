@@ -22,11 +22,11 @@
   <body>
     <header class="page-header title-header" role="banner">
       <div class="title-container">
-        <div style="position:relative">
+        <div style="position:relative; display:flex; align-items:center; justify-context:space-between">
           <!--<table width="100%">
             <tr>
               <td width="100%">-->
-                <div style="display:inline">
+                <div style="display:inline-block">
                   <h1 class="project-name" style="margin-bottom:0rem">{{ site.title | default: site.github.repository_name | default: page.title }}</h1>
                   <h2 class="project-tagline" style="margin-bottom:0rem">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
                 </div>
