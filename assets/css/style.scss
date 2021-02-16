@@ -39,6 +39,7 @@
     display: flex;
     flex-grow: 1;
     justify-content: flex-start;
+    flex-direction: column;
 
     @include large {
         padding: 2rem 0rem;
@@ -55,8 +56,9 @@
 
 .title-right-container {
     display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
+    flex-direction: column;
+    text-align: right;
+    padding-left: 2rem;
 
     @include large {
         padding: 2rem 0rem;
@@ -74,6 +76,9 @@
 .title-sidebar {
     height: 100%;
     text-align: right;
+    display: flex;
+    flex-grow: 1;
+    justify-content: 
 }
 
 .title-sidebar-inner {
