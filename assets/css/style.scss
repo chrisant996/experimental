@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     @include large {
         max-width: 64rem;
@@ -29,6 +29,7 @@
     }
 
     @include small {
+        min-width: 32 rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
