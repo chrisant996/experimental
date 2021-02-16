@@ -17,7 +17,7 @@
     flex-wrap: nowrap;
 
     @include large {
-        max-width: 72rem;
+        max-width: 64rem;
         padding-left: 6rem;
         padding-right: 6rem;
         margin: 0 auto;
@@ -29,7 +29,7 @@
     }
 
     @include small {
-        min-width: 40rem;
+        min-width: 36rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -78,8 +78,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    white-space: nowrap;
+    width:fit-content;
 }
 
 kbd {
