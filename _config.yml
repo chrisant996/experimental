@@ -2,6 +2,6 @@ theme: jekyll-theme-minimal
 title: Clink
 show_downloads: true
 github:
-  version: v1.2.24
-  zip_url: https://github.com/chrisant996/clink/releases/download/v1.2.24/clink.1.2.24.3a07c0.zip
-  exe_url:  https://github.com/chrisant996/clink/releases/download/v1.2.24/clink.1.2.24.3a07c0_setup.exe
+  version: v1.2.23
+  zip_url: https://github.com/chrisant996/clink/releases/download/v1.2.23/clink.1.2.23.9b90e7.zip
+  exe_url: https://github.com/chrisant996/clink/releases/download/v1.2.23/clink.1.2.23.9b90e7_setup.exe
